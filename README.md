@@ -1,12 +1,18 @@
-# PALab4
+# PALab5
 
 * Compulsory
-	* Create an object-oriented model of the problem. You should have at least the following classes: Student, School and the main class.
-	* Create all the objects in the example using streams.
-	* Create a list of students, using LinkedList implementation. Sort the students, using a comparator.
-	* Create a set of schools, using a TreeSet implementation. Make sure that School objects are comparable.
-	* Create two maps (having different implementations) describing the students and the school preferences and print them on the screen.
+	* Create an object-oriented model of the problem. You should have at least the following classes: Catalog and two item classes at your choice. Consider using an interface or an abstract class in order to describe the items in a catalog.
+	* Implement the following methods representing commands that will manage the content of the catalog:
+		* add: adds a new entry into the catalog;
+		* list: prints the content of the catalog on the screen;
+		* play: playback using the native operating system application (see the Desktop class);
+		* save: saves the catalog to an external file (either as a text or binary, using object serialization);
+		* load: loads the catalog from an external file.
+	* The application will signal invalid data (year, path, etc.) using a custom exception.
 * Optional
-	* Create a class that describes the problem and one that describes a solution (a matching) to this problem.
-	* Using Java Stream API, write queries that display the students who find acceptable a given list of schools, and the schools that have a given student as their top preference.
-	* Use a third-party library in order to generate random fake names for students and schools.
+	* Create a shell that allows reading commands from the keyboard, together with their arguments.
+	* Represent the commands using classes instead of methods. Use an interface or an abstract class in order to desribe a generic command.
+	* Implement the commands add, list, save, load, play (create the classes AddCommand, ListCommand, etc.).
+	* Implement the command report: create (and open) an HTML report representing the content of the catalog.
+	* Use a template engine such as FreeMarker or Velocity, in order to create the HTML report.
+	* The application will signal the commands that are not valid using a custom exception.
