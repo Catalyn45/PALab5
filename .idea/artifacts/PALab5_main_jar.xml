@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PALab5.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PALab5_main_jar</output-path>
+    <root id="archive" name="PALab5.main.jar">
+      <element id="module-output" name="PALab5.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.31/cd4fc0942b4a8bdb19f3b669aa42136fb54feb55/freemarker-2.3.31.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
